@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import INput from "./Input.jsx";
+import Input from "./Input.jsx";
 
 class FormContainer extends Component {
   constructor() {
@@ -16,6 +15,7 @@ class FormContainer extends Component {
   }
 
   render() {
+    const { seo_title } = this.state;
     return (
       <form id="article-form">
 	<Input
