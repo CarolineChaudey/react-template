@@ -1,17 +1,19 @@
 {
-  "name": "react-template",
+  "name": "pleziboard-web",
   "version": "1.0.0",
-  "description": "template to start react apps, with webpack, babel, and other libs.",
+  "description": "Web interface for the PleziBoard application.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [
-    "template",
-    "react"
+    "plezi",
+    "board",
+    "dashboard",
+    "pleziboard"
   ],
-  "author": "Caroline alias CodingMouse",
+  "author": "Caroline Chaudey, Hervé Coignard, Benjamin Metaut",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.0",
